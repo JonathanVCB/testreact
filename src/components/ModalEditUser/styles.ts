@@ -32,6 +32,11 @@ export const ModalContent = styled.main`
   justify-content: flex-start;
   gap: 2rem;
   padding-top: 6rem;
+  > h3 {
+    font-size: 1rem;
+    color: #767676;
+    font-weight: 700;
+  }
 `;
 
 export const FormEdituser = styled.form`
@@ -44,6 +49,11 @@ export const FormEdituser = styled.form`
     display: flex;
     flex-direction: column;
     width: 45%;
+
+    > label {
+      font-size: 0.8rem;
+      color: #aaaaaa;
+    }
 
     > input {
       padding: 0.5rem;
