@@ -99,6 +99,14 @@ export const FormContainer = styled.form`
     background-color: #fff;
     font-weight: 700;
     border-radius: 10px;
+    transition: 1s;
+  }
+  > button:hover {
+    transform: scale(1.1);
+  }
+  > span {
+    font-size: 0.725rem;
+    color: red;
   }
 `;
 
@@ -112,5 +120,10 @@ export const DivFooter = styled.div`
     border: none;
     color: #b4b4b4;
     font-weight: 1000;
+    transition: 1s;
+  }
+
+  > button:hover {
+    transform: scale(1.1);
   }
 `;

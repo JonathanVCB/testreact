@@ -74,12 +74,14 @@ const LoginPage = () => {
                 placeholder="USUÁRIO"
                 {...register("username")}
               />
+              {errors.username && <span>{errors.username.message}</span>}
               <input
                 type="password"
                 id="password"
                 placeholder="SENHA"
                 {...register("password")}
               />
+              {errors.password && <span>{errors.password.message}</span>}
               <button type="submit">LOGAR</button>
             </FormContainer>
             <DivFooter>
